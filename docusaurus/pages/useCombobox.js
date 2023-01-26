@@ -24,6 +24,8 @@ export default function DropdownCombobox() {
         ),
       )
     },
+    defaultHighlightedIndex: 0,
+    onSelectedItemChange: val => console.log('onSelectedItemChanged', val),
   })
   return (
     <div style={containerStyles}>
